@@ -142,7 +142,7 @@ button:hover {
 
 .icons ul li a {
     background-color: rgb(255, 255, 255);
-    margin: 10px;
+    margin: 5%;
     border-radius: 50%;
     padding: 15px;
 }
@@ -182,7 +182,23 @@ button:hover {
     padding-bottom: 20px;
 }
 
+/* */
 @media (max-width: 700px) {
+
+
+    .logo {
+        height: 100;
+        width: 5rem;
+        padding-bottom: 30px;
+        padding-left: 140px;
+    }
+    .navbar {
+        display:block;
+    }
+
+    .banner {
+        height: 200vh;
+    }
 
     .navbar ul li {
         margin: 0 20px 25px;
@@ -198,21 +214,12 @@ button:hover {
         margin: 10px;
     }
 
+    .icons ul li a {
+        margin: 3%
+    }
+
     .content {
-        margin-top: 50%;
+        margin-top: 400px
     }
-
-    .content h1 {
-        margin-top: 30px;
-        font-size: 50px;
-
-    }
-
-    .content p {
-        margin: 20px auto;
-        font-weight: 100;
-        line-height: 30px;
-    }
-
 
 }
