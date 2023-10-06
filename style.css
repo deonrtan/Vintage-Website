@@ -61,7 +61,7 @@
 .content {
     width: 100%;
     position: relative;
-    top: 30%;
+    margin-top: 15rem;
     transform: translateY(-50%);
     color: #fff;
     text-align: center;
