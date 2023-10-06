@@ -170,7 +170,7 @@ button:hover {
     color: #fff;
 }
 
-.footer-nav ul li a:hover{
+.footer-nav ul li a:hover {
     color: rgb(97, 92, 92);
 }
 
@@ -180,4 +180,39 @@ button:hover {
     color: white;
     text-align: center;
     padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+
+    .navbar ul li {
+        margin: 0 20px 25px;
+    }
+
+    .footer-nav ul {
+        flex-direction: column;
+    }
+
+    .footer-nav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .content {
+        margin-top: 50%;
+    }
+
+    .content h1 {
+        margin-top: 30px;
+        font-size: 50px;
+
+    }
+
+    .content p {
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 30px;
+    }
+
+
 }
