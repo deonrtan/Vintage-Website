@@ -15,7 +15,7 @@
 .navbar {
     width: 85%;
     margin: auto;
-    padding: 35px 0;
+    padding: 2rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,7 @@
 
 .logo {
     height: 100;
-    width: 120px;
+    width: 6.5rem;
     cursor: pointer;
 }
 
@@ -60,8 +60,8 @@
 
 .content {
     width: 100%;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 30%;
     transform: translateY(-50%);
     color: #fff;
     text-align: center;
