@@ -188,12 +188,13 @@ button:hover {
 
     .logo {
         height: 100;
-        width: 5rem;
+        width: 8rem;
         padding-bottom: 30px;
-        padding-left: 140px;
+        padding-left: 120px;
     }
+
     .navbar {
-        display:block;
+        display: block;
     }
 
     .banner {
@@ -201,7 +202,7 @@ button:hover {
     }
 
     .navbar ul li {
-        margin: 0 20px 25px;
+        margin: 0 10px 25px;
     }
 
     .footer-nav ul {
@@ -212,6 +213,7 @@ button:hover {
         width: 100%;
         text-align: center;
         margin: 10px;
+        padding-left:-50px;
     }
 
     .icons ul li a {
