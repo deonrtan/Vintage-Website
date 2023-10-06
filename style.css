@@ -116,15 +116,63 @@ button:hover {
 }
 
 
+
 /* --------------- FOOTER ---------------*/
-.footer {
+.footer-container {
     width: 100%;
+    position: absolute;
+    padding-top: 30px;
+    background-color: #111;
+
+}
+
+.footer-container ul {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.footer-container ul li {
+    padding-left: 20px;
     
 }
 
-.footer ul li {
-    display: inline-block;
-    justify-content: center;
-    margin: 0 auto;
+.icons ul li a {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 50%;
+    padding: 15px;
+}
 
+.icons ul li a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.icons ul li a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-nav {
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.3rem;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.footer-bottom {
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+    padding-bottom:20px;
 }
