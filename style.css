@@ -60,8 +60,8 @@
 
 .content {
     width: 100%;
-    position: relative;
-    margin-top: 15rem;
+    position: absolute;
+    top: 50%;
     transform: translateY(-50%);
     color: #fff;
     text-align: center;
