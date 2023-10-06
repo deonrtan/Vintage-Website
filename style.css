@@ -137,7 +137,7 @@ button:hover {
 
 .footer-container ul li {
     padding-left: 20px;
-    
+
 }
 
 .icons ul li a {
@@ -170,9 +170,14 @@ button:hover {
     color: #fff;
 }
 
+.footer-nav ul li a:hover{
+    color: rgb(97, 92, 92);
+}
+
+
 .footer-bottom {
     padding-top: 40px;
     color: white;
     text-align: center;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
